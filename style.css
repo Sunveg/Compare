@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  #myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    width: 500px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+
+  #myInput2{
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    width: 500px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  #myUL {
+    list-style-type: none;
+    width: 600px;
+    padding: 0;
+    margin: 10px;
+    max-block-size: 200px;
+    overflow: scroll;
+    background-color: #f6f6f6;
+  }
+  
+  #myUL option {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Odibee Sans', cursive;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    display: block
+  }
+
+  
+  #myUL option:hover:not(.header) {
+    background-color: #eee;
+  }
+
+  form {
+    text-align: center;
+  }
