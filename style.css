@@ -42,7 +42,7 @@
     font-family: 'Odibee Sans', cursive;
     font-family: 'Quicksand', sans-serif;
     color: black;
-    display: block
+    display: block;
   }
 
   
@@ -52,4 +52,20 @@
 
   form {
     text-align: center;
+  }
+ 
+  h3, h4 {
+    font-family: 'Odibee Sans', cursive;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  h2 {
+    font-family: 'Assistant', sans-serif;
+    color: rgb(59, 59, 59);
+  }
+
+  h6 {
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Exo 2', sans-serif;
+    color: rgb(0, 0, 0);
   }

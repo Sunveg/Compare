@@ -1,4 +1,5 @@
 var i = 0;
+
 function getData(name) {
     fetch('PL.json').then(function(response) {
         return response.json();
@@ -9,9 +10,11 @@ function getData(name) {
             if(data[i].Player == name)
             {
                 document.getElementById('name').textContent = name;
-                document.getElementById('goals').textContent = "Goals  " + data[i].Gls;
-                document.getElementById('assists').textContent = "Assists  " + data[i].Ast;
-                document.getElementById('app').textContent = "Appearances  " + data[i].MP;
+                document.getElementById('team').textContent = data[i].Squad;
+                document.getElementById('nationality').textContent = data[i].Nation;
+                document.getElementById('goals').textContent = data[i].Gls;
+                document.getElementById('assists').textContent = data[i].Ast;
+                document.getElementById('app').textContent = data[i].MP;
             }
         }
 
@@ -33,9 +36,11 @@ function getData2(name) {
             if(data[i].Player == name)
             {
                 document.getElementById('name2').textContent = name;
-                document.getElementById('goals2').textContent = "Goals  " + data[i].Gls;
-                document.getElementById('assists2').textContent = "Assists  " + data[i].Ast;
-                document.getElementById('app2').textContent = "Appearances  " + data[i].MP;
+                document.getElementById('team2').textContent = data[i].Squad;
+                document.getElementById('nationality2').textContent = data[i].Nation;
+                document.getElementById('goals2').textContent = data[i].Gls;
+                document.getElementById('assists2').textContent = data[i].Ast;
+                document.getElementById('app2').textContent = data[i].MP;
             }
         }
 
@@ -49,6 +54,7 @@ function getData2(name) {
 
 function test()
         {
+            x.style.display = block;
             var userInput = document.getElementById("myInput").value;
             getData(userInput);
             var userInput2 = document.getElementById("myInput2").value;
