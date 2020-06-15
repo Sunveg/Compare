@@ -60,11 +60,15 @@
   }
 
   h2 {
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Suez One', serif;
     color: rgb(59, 59, 59);
   }
 
   h6 {
     font-family: 'Exo 2', sans-serif;
     font-family: 'Tenali Ramakrishna', sans-serif;
+  }
+
+  h3 {
+    font-size: medium;
   }
