@@ -54,11 +54,13 @@ function getData2(name) {
 
 function test()
         {
-            x.style.display = block;
             var userInput = document.getElementById("myInput").value;
             getData(userInput);
             var userInput2 = document.getElementById("myInput2").value;
             getData2(userInput2);
+            document.getElementById("GOALS").textContent = 'GOALS';
+            document.getElementById("ASSISTS").textContent = 'ASSISTS';
+            document.getElementById("APPEARANCES").textContent = 'APPEARANCES';
         }
 
 
